@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronauta</title>
+
+    <!-- <script type type="text/javascript">
+     alert("Hola mundo")
+    </script>> -->
+
+<style>
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        box-shadow: inset;
+    }
+    .caja1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border: 1px solid black;
+        height: 200px;
+        align-items: flex-end;
+    }
+    button{
+
+    }
+    .parrafo{
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+    .textos{
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        border: 1px solid black;
+        height: 200px;
+    }
+    .colores{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 200px;
+        width: 300px;
+        align-items:center;
+    }
+    .colores--rojos{
+        background-color: red;
+        width:50%;
+    }
+    .colores--verde{
+        background-color: rgb(19, 161, 31);
+        width:50%;
+    }
+    .colores--yellow{
+        background-color: rgb(224, 203, 7);
+        width:50%;
+    }
+    .colores--azul{
+        background-color: rgb(8, 23, 245);
+        width:50%;
+    }
+    .caja-justificada{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+    .colores2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: 200px;
+        width: 300px;
+        border: 1px solid black;
+        align-content: center;
+        text-align: center;
+    }
+    .colores3{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: 200px;
+        width: 300px;
+        border: 1px solid black;
+        align-content: space-around;
+    }
+</style>
+</head>
+<body>
+    <h1>Aplicacion inicial</h1>
+    <p>El camino de belen es arduo y siniestro</p>
+    <script type="text/javascript" src="./JS/app.js"></script>
+    <div class="caja1">
+        <button type="button">Base clase </button>
+        <button type="button">Primary </button>
+        <button type="button">Secondary </button>
+    </div>
+    <div class="parrafo">
+        <p>Parrafo 1</p>
+        <p>Parrafo 2</p>
+        <p>Parrafo 3</p>
+    </div>
+
+    <section class="textos">
+        <h2>Titulo 2</h2>
+        <h3>Subtitulo</h3>
+        <span> Texto pequeño</span>
+    </section>
+    <div class="colores">
+        <div class="colores--rojos">Rojo</div>
+        <div class="colores--verde">verde</div>
+        <div class="colores--yellow">Amarillo</div>
+
+
+    </div>
+    <p>Colores 2</p>
+    <div class="colores2">
+        <div class="colores--rojos">Rojo
+
+        </div>
+        <div class="colores--verde">verde
+
+        </div>
+        <div class="colores--azul">Azul
+            
+
+        </div>
+        <div class="colores--yellow">Amarillo
+
+        </div>
+
+
+    </div>
+    <p>colores 3 </p>
+    <div class="colores3">
+        <div class="colores--rojos">Rojo</div>
+        <div class="colores--verde">verde</div>
+        <div class="colores--yellow">Amarillo</div>
+
+
+    </div>
+
+    <div class="caja-justificada">
+        <div style="width:50px; height:50px; background-color:red">red</div>
+        <div style="width:50px; height:50px; background-color:rgb(7, 211, 68)">verde</div>
+        <div style="width:50px; height:50px; background-color:rgb(24, 67, 209)">azul</div>
+        <div style="width:50px; height:50px; background-color:rgb(213, 250, 7)">Amarillo</div>
+    </div>
+       
+</body>
+</html>
